@@ -1,0 +1,28 @@
+{
+  "name": "samy-framework-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "bin": {
+    "sch4n": "bin/sch4n"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "samych4n",
+  "license": "ISC",
+  "dependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^12.11.1",
+    "arg": "^4.1.1",
+    "chalk": "^2.4.2",
+    "esm": "^3.2.25",
+    "inquirer": "^7.0.0",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  }
+}
